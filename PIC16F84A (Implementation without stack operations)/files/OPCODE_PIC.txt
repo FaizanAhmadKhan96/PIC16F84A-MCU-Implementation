@@ -1,0 +1,29 @@
+11000000000101 -- MOVLW 5       ; Load W register with the literal value 5
+00000010001101 -- MOVWF 0D      ; Move W register value to address 0D
+11000000000011 -- MOVLW 3       ; Load W register with the literal value 3
+00011110001101 -- ADDWF 0D, 1   ; Add W and value at address 0D, store result in address 0D (d=1)
+11000000000100 -- MOVLW 4       ; Load W register with the literal value 4
+00001000001110 -- SUBWF 0E, 1   ; Subtract value at address 0E from W, store result in address 0E (d=1)
+11000000001000 -- MOVLW 8       ; Load W register with the literal value 8
+00010100001111 -- ANDWF 0F, 0   ; AND W and value at address 0F, store result in W (d=0)
+00100110010000 -- COMF 10, 1    ; Complement value at address 10, store result in address 10 (d=1)
+00001110010001 -- DECF 11, 1    ; Decrement value at address 11, store result in address 11 (d=1)
+00101010010010 -- INCF 12, 1    ; Increment value at address 12, store result in address 12 (d=1)
+00010000010011 -- IORWF 13, 0   ; Inclusive OR W and value at address 13, store result in W (d=0)
+00100010010100 -- MOVF 14, 0    ; Move value at address 14 to W (d=0)
+00000010010101 -- MOVWF 15      ; Move W register value to address 15
+00110110010101 -- RLF 15, 1     ; Rotate Left through Carry value at address 15, store result in address 15 (d=1)
+00110010010000 -- RRF 10, 1     ; Rotate Right through Carry value at address 10, store result in address 10 (d=1)
+00001010011000 -- SUBWF 18, 1   ; Subtract value at address 18 from W, store result in address 18 (d=1)
+00111010011000 -- SWAPF 18, 1   ; Swap nibbles in value at address 18, store result in address 18 (d=1)
+00011010011010 -- XORWF 1A, 1   ; XOR W and value at address 1A, store result in address 1A (d=1)
+01000010011010 -- BCF 1A, 1     ; Bit Clear (clear bit 1) at address 1A
+01010010011100 -- BSF 1C, 1     ; Bit Set (set bit 1) at address 1C
+11111000000100 -- ADDLW 4       ; Add literal value 4 to W
+11100100000100 -- ANDLW 4       ; AND literal value 4 with W
+11100000000100 -- IORLW 4       ; Inclusive OR literal value 4 with W
+11000000000101 -- MOVLW 5       ; Load W register with the literal value 5
+11110000000100 -- SUBLW 4       ; Subtract W from literal value 4
+11101000000100 -- XORLW 4       ; XOR literal value 4 with W
+00000100000000 -- CLRW          ; Clear W register
+

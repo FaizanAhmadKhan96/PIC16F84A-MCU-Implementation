@@ -1,0 +1,4 @@
+Output Q value:
+00110011
+Output Q value:
+01010101
