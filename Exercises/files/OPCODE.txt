@@ -1,0 +1,25 @@
+11000000000001 -- MOVLW instruction with literal value
+00000010000001 -- MOVWF instruction with some address
+11000000000001 -- MOVLW instruction with literal value
+00011100000011 -- ADDWF instruction with some address
+00010100000010 -- ANDWF instruction with some address
+00000100000000 -- CLRW instruction
+00100100000001 -- COMF instruction with some address
+00001100000001 -- DECF instruction with some address
+00101000000010 -- INCF instruction with some address
+00010000000010 -- IORWF instruction with some address
+00100000000001 -- MOVF instruction with some address
+00000010000001 -- MOVWF instruction with some address
+00110100000011 -- RLF instruction with some address
+00110000000011 -- RRF instruction with some address
+00001000000001 -- SUBWF instruction with some address
+00111000000001 -- SWAPF instruction with some address
+00011000000010 -- XORWF instruction with some address
+01000000000010 -- BCF instruction with some address
+01010000000010 -- BSF instruction with some address
+11111000000001 -- ADDLW instruction with literal value
+11100100000010 -- ANDLW instruction with literal value
+11100000000001 -- IORLW instruction with literal value
+11000000000001 -- MOVLW instruction with literal value
+11110000000010 -- SUBLW instruction with literal value
+11101000000001 -- XORLW instruction with literal value
