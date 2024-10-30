@@ -11,9 +11,11 @@ And the following instructions were to be implemented as part of the project:
 
 ## OUTPUT WAVEFORM
 
-Following is one of the screenshots of the output waveform of my PIC microcontroller:
+Following are few screenshots of the output waveform of the designed PIC microcontroller:
 
 ![Output Waveform](https://github.com/user-attachments/assets/858197f7-ce0f-440d-9149-a3c458be447c)
+
+![Output Waveform 1](https://github.com/user-attachments/assets/dbb7e4f1-ef70-4f06-8a25-6eb207908e04)
 
 ## RTL SCHEMATIC
 
