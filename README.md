@@ -9,6 +9,12 @@ And the following instructions were to be implemented as part of the project:
 
 ![Instructions implemented](https://github.com/user-attachments/assets/8bc05b2f-102e-4410-a688-e37d641a60a5)
 
+## OUTPUT WAVEFORM
+
+Following is one of the screenshots of the output waveform of my PIC microcontroller:
+
+![Output Waveform](https://github.com/user-attachments/assets/858197f7-ce0f-440d-9149-a3c458be447c)
+
 ## RTL SCHEMATIC
 
 This is how the rtl schematic of the circuit looked:
