@@ -26,3 +26,7 @@ This is how the rtl schematic of the circuit looked:
 And this is what it looked after snthesis:
 
 ![PIC_synthesis_Generic](https://github.com/user-attachments/assets/17dd3db8-6c03-49c1-9aff-15eb8cd99144)
+
+## PHYSICAL IMPLEMENTATION
+
+![PIC MCU final floorplan](https://github.com/user-attachments/assets/b8564f02-ebea-44e0-85d9-37eba18ea513)
